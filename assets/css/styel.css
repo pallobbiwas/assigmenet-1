@@ -1,16 +1,20 @@
 body{
     box-sizing: border-box;
     margin: 0;
-    padding: 20px 150px;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
     background-color: rgb(224, 219, 211);
 }
+/*common clas*/
+#commonpad{
+    padding: 20px 150px;
+}
 /*header section start*/
+
 .myHeader{
     display: flex;
-
+    
 }
 .leftHeader{
     width: 60%;
@@ -59,6 +63,8 @@ body{
     padding: 20px;
     font-size: 40px;
 }
+/*end head*/
+/*start section*/
 .box1{
     width: 400px;
     text-align: center;
@@ -78,4 +84,93 @@ body{
 .comimage{
     width: 100px;
 }
+/*end section*/
+/*start first main*/
+.firstmain{
+    display: flex;
+    padding:40px 0;
+    
+}
+.mainleft{
+    padding: 50px 30px 0 0;
+    width: 50%;
+}
+.mainright{
+    
+    padding: 50px 30px 0 0;
+    width: 50%;
+}
+.maintitle{
+    font-size: 20px;
+    line-height: 90%;
+}
+.mainimage{
+    width: 70%;
+}
+.posmainpera{
+    padding: 20px;
+}
+.paddd{
+    padding-left: 50px;
+}
+/*first main end*/
+/*last main start*/
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastmain{
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+.lastmainhead{
+    font-size: 30px;
+    color: rgb(66, 74, 82);
+}
+.round{
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+.fs{
+    padding-right: 10px;
+}
+.model1{
+    background-color: thistle;
+}
+.model2{
+    background-color: rgb(156, 125, 156);
+}
+.model3{
+    background-color: rgb(112, 107, 112);
+}
+.model{
+    opacity: 1;
+}
+.model:hover{
+    opacity: 0.5;
+}
+/*last main end*/
+/*footer start*/
+.foter{
+    width: 1400px;
+    max-width: 100%;
+    background-color: rgb(14, 13, 13);
+    height: 150px;
+    text-align: center;
+}
 
+.fotertext{
+    padding-top: 20px;
+    
+    color: blanchedalmond;
+}
+.footertitle{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-style: italic;
+}
+/*footer end*/
