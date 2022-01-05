@@ -1,12 +1,81 @@
-*{
+body{
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Teko', sans-serif;
     margin: 0;
-    padding: 0;
-    font-size: 20px;
+    padding: 20px 150px;
     text-decoration: none;
     list-style: none;
-    word-spacing: 5px;
     text-decoration: none;
+    background-color: rgb(224, 219, 211);
 }
+/*header section start*/
+.myHeader{
+    display: flex;
+
+}
+.leftHeader{
+    width: 60%;
+}
+.heading{
+    font-size: 20px;
+    border-left: orangered solid 3px;
+    padding-left: 10px;
+}
+
+.heading .hraderSubTitle{
+    color: orange;
+}
+.headerPera{
+    padding-right: 40px;
+    text-align: justify;
+}
+.headerRight{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: orangered;
+    color: palegoldenrod;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+.text{
+    padding-top: 20px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.missionhead{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.box1{
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.color1{
+    background-color:rgb(225, 240, 241);
+}
+.color2{
+    background-color:rgb(223, 210, 195);
+}
+.color3{
+    background-color:rgb(209, 224, 230);
+}
+.comimage{
+    width: 100px;
+}
+
