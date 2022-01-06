@@ -158,8 +158,6 @@ body{
 /*last main end*/
 /*footer start*/
 .foter{
-    width: 1400px;
-    max-width: 100%;
     background-color: rgb(14, 13, 13);
     height: 150px;
     text-align: center;
