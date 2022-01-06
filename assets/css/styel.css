@@ -8,7 +8,7 @@ body{
 }
 /*common clas*/
 #commonpad{
-    padding: 20px 150px;
+    padding: 20px 80px;
 }
 /*header section start*/
 
@@ -56,7 +56,8 @@ body{
 }
 .box{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .missionhead{
     text-align: center;
@@ -84,6 +85,10 @@ body{
 .comimage{
     width: 100px;
 }
+.commonpera{
+    text-align: justify;
+    padding: 5px;
+}
 /*end section*/
 /*start first main*/
 .firstmain{
@@ -92,12 +97,10 @@ body{
     
 }
 .mainleft{
-    padding: 50px 30px 0 0;
     width: 50%;
 }
 .mainright{
-    
-    padding: 50px 30px 0 0;
+    padding-top: 100px;
     width: 50%;
 }
 .maintitle{
@@ -111,7 +114,7 @@ body{
     padding: 20px;
 }
 .paddd{
-    padding-left: 50px;
+    padding-left: 150px;
 }
 /*first main end*/
 /*last main start*/
@@ -125,8 +128,8 @@ body{
     padding: 30px 0 10px 0;
 }
 .lastmainhead{
-    font-size: 30px;
-    color: rgb(66, 74, 82);
+    font-size: 40px;
+    
 }
 .round{
     height: 150px;
