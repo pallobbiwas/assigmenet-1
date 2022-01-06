@@ -5,6 +5,7 @@ body{
     list-style: none;
     text-decoration: none;
     background-color: rgb(224, 219, 211);
+    font-size: 20px;
 }
 /*common clas*/
 #commonpad{
@@ -175,5 +176,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Teko', sans-serif;
     font-style: italic;
+}
+.fotyear{
+    color: aquamarine;
 }
 /*footer end*/
